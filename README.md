@@ -78,7 +78,7 @@ The files are split in the following way. A server folder contains all the code 
   
   * rulesSetup.py must be running while plugging or removing TMC devices, otherwise the list of devices connected will not be displayed correctly. If that happens just delete the file, devList, that gets created on the server side and make sure that rulesSetup.py is ruinning when plugging any TMC devices. 
   
-  * Running an unknown command through the Console application (or the others) will unfortunatley hang the network connection and Network_server.py has to be re-run.
+  * Running an unknown command through the Console application (or the others) will unfortunately hang the network connection and Network_server.py has to be re-run.
   
   * If when running Network_server.py, error "OSError: [Errno 98] Address already in use" shows up. Close all instances of this file and try again after a short    period of time.
   
