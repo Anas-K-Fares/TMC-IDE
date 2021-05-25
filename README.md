@@ -74,7 +74,7 @@ The files are split in the following way. A server folder contains all the code 
   A new command was added to the list of standard TMC commands which facilitates acquiring data points from an oscilliscope: iwav:data?. Using the standard         wav:data? on its own will not give you all of the data showing in the display. iwav:data? was crated to solve that issue.
   >\>\>\> usbtmc1::iwav:data?
   
-  4) Common problems:
+  5) Common problems:
   
   * rulesSetup.py must be running while plugging or removing TMC devices, otherwise the list of devices connected will not be displayed correctly. If that happens just delete the file, devList, that gets created on the server side and make sure that rulesSetup.py is ruinning when plugging any TMC devices. 
   
